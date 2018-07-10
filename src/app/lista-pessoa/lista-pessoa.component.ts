@@ -6,9 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lista-pessoa.component.css']
 })
 export class ListaPessoaComponent implements OnInit {
-
+  
+  
+  
   constructor() { }
-
+  nome: string ="Thiago";
   ngOnInit() {
   }
 
