@@ -7,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaPessoaComponent implements OnInit {
   
-  
-  
-  constructor() { }
+  pessoas: string[]=['João', 'Maria', 'Angular 2'];
   nome: string ="Thiago";
+    
+  constructor() { }
+  
   ngOnInit() {
   }
 

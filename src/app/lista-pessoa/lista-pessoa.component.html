@@ -1,6 +1,9 @@
 <h2>Lista de Pessoas</h2>
+<input type="text" (input)="nome = $event.target.value" [value]="nome">
 <p>{{nome}}</p>
 
 <ul>
-  <li></li>
+  <li *ngFor="let pessoa of pessoas">
+    {{pessoa}}
+  </li>
 </ul>
